@@ -1,4 +1,6 @@
-# RDownloader : This Repo is under development so there may be some issues while downloading, until development complete.
+# RDownloader 
+
+This Repo is under development so there may be some issues while downloading, until development complete.
 
 This repo consists of a sample implementation of downloader which can download files in chunk using C#
 
