@@ -1,11 +1,4 @@
-﻿/*
- * Created by SharpDevelop.
- * User: Krith
- * Date: 22-07-2024
- * Time: 10:52
- * 
- * To change this template use Tools | Options | Coding | Edit Standard Headers.
- */
+﻿
 using System;
 
 namespace RDownloader
