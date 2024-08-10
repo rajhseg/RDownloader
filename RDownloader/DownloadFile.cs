@@ -236,7 +236,10 @@ namespace RDownloader
 				var responseLength = double.Parse(resp.Headers.Get("Content-Length"));
 	        
 				this.SetDownloadFileName(resp);
-	        
+
+				if (responseLength > 0 && responseLength < 104857600)
+					SplitSize = 10;
+
 				var partSize = (long)(responseLength / SplitSize);
 				this.TotalResponseLength = responseLength;	        
 				var remainder = Convert.ToInt32(responseLength % SplitSize);
